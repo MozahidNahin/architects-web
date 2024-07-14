@@ -27,6 +27,11 @@
     display: flex;
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .btn-explore{
     background-color: rgb(255, 144, 14);
     color: #FFFFFF;
@@ -35,6 +40,10 @@
     padding: 21px 25px;
     border: none;
     border-radius: 8px;
+}
+
+main > section{
+    margin-top: 85px;
 }
 
 /* header part */
@@ -86,3 +95,26 @@
     margin-bottom: 45px;
 }
 
+/* Our features */
+
+.ourfeatures-box{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features{
+    padding-left: 73px;
+    max-width: 530px;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
