@@ -55,6 +55,7 @@ main > section{
     margin-top: 85px;
 }
 
+
 /* header part */
 
 /* nav styles */
@@ -211,6 +212,23 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+
+/* footer styles */
+
+footer{
+    background: rgba(255, 144, 14, 0.1);
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 240px;
+    right: -240px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    
+}
+
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -247,6 +265,7 @@ main > section{
     .ourfeatures-box,
     .enjoy-feat,
     .feat-architect,
+    .footer
     {
         flex-direction: column;
     }
